@@ -1,8 +1,8 @@
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\dao\UserDao.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\service\UserService.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\service\impl\UserServiceImpl.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\utils\SignUtil.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\controller\WxTokenController.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\controller\UserController.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\controller\WeatherController.java
-D:\project\chuanghuo\src\main\java\com\qijun\chuanghuo\model\User.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\model\User.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\service\UserService.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\controller\WeatherController.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\utils\SignUtil.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\controller\WxTokenController.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\controller\UserController.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\dao\UserDao.java
+D:\Java\project\chuanghuo\src\main\java\com\qijunsports\chuanghuo\service\impl\UserServiceImpl.java
