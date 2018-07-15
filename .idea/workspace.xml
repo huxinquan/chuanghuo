@@ -6,624 +6,93 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8da33653-c460-412b-a973-aa8a4998ed4a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/css/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/css/plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootbox/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootbox/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootbox/bootbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootbox/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-confirmation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-confirmation/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-modal/css/bootstrap-modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/css/bootstrap2/bootstrap-switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/css/bootstrap2/bootstrap-switch.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap-tabdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/chinese.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/echarts/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/echarts/macarons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/echarts/vintage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/icheck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/arrow-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/arrow-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/header-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/icon-fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/icon-github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/icon-lab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/icon-options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/ie/icon-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/montserrat-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/js/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/js/zepto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/icheck.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/skins/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_bn_BD.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_bn_BD.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es_AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es_AR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es_PE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_es_PE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ge.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hy_AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_hy_AM.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_my.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pt_BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_pt_PT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_si.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sr_lat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sr_lat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_tj.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/messages_zh_TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_es_CL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery-validation/js/localization/methods_pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery.blockui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/jstree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/jstree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default-dark/32px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default-dark/40px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default-dark/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default-dark/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default-dark/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/32px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/32px_line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/32px_original.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/40px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jstree/themes/default/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/lodash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/mCustomScrollbar/jquery.mCustomScrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/mCustomScrollbar/mCSB_buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-theme-air.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-theme-block.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-theme-flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-theme-future.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger-theme-ice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/css/messenger.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/js/messenger-theme-flat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/js/messenger-theme-future.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/js/messenger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/messenger/js/messenger.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/metisMenu/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/metisMenu/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/metisMenu/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/metisMenu/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/css/select2-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/select2/sass/select2-bootstrap.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/css/uniform.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/css/uniform.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/css/uniform.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/images/bg-input-focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/images/bg-input.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/images/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/images/sprite_original.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/jquery.uniform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/uniform/jquery.uniform.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8da33653-c460-412b-a973-aa8a4998ed4a" name="Default" comment="增删改查&#10;wangEditor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ImageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/wxToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WeatherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WxTokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/showUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/wxToken.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chuanghuo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chuanghuo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/controller/WeatherController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/controller/WxTokenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/com/qijun/chuanghuo/utils/SignUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/mapping/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/assets/pages/scripts/wxToken.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/chuanghuo/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/jsp/showUser.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/jsp/wxToken.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/controller/WeatherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/controller/WxTokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qijunsports/chuanghuo/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -641,38 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="54" selection-start-line="54" selection-end-line="110" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3289">
-              <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="425">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -680,15 +122,86 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="view.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/view.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -696,9 +209,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -710,6 +224,10 @@
       <find>qijun</find>
       <find>mvc</find>
       <find>mvc:resources</find>
+      <find>font-awesome</find>
+      <find>$activityDialog</find>
+      <find>initActivityData</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -734,12 +252,23 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/activity.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ImageInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/view.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/view.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -763,63 +292,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qdxiangdao Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chuanghuo Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Checkstyle</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>CheckStyle</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -829,9 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -956,6 +441,74 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="wangEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -979,12 +532,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="**&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pc源码/caiyun" />
+    <property name="last_opened_file_path" value="D:/checkstyle/google_check.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -992,18 +549,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\project\chuanghuo\src\main\webapp\chuanghuo\activity" />
-      <recent name="D:\Java\project\chuanghuo\src\main\webapp\assets\global" />
-      <recent name="D:\Java\project\chuanghuo\src\main\webapp\assets" />
-      <recent name="D:\project\qdxiangdao\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\chuanghuo\src\main\webapp\assets\global\plugins" />
       <recent name="D:\Java\project\chuanghuo\src\main\webapp\assets\pages\scripts\activity" />
       <recent name="D:\Java\project\chuanghuo\src\main\webapp\chuanghuo" />
       <recent name="D:\Java\project\chuanghuo\src\main\webapp" />
       <recent name="D:\Java\project\chuanghuo\src\main\webapp\jsp\activity" />
-      <recent name="D:\Java\project\chuanghuo\src\main\webapp\assets\global" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\chuanghuo\src\main\webapp\assets\pages\scripts\activity" />
+      <recent name="D:\project\chuanghuo\src\main\webapp\chuanghuo\activity" />
+      <recent name="D:\project\chuanghuo\src\main\webapp\assets\global\plugins\wangEditor" />
+      <recent name="D:\project\chuanghuo\src\main\webapp\assets\global" />
+      <recent name="D:\project\chuanghuo\src\main\webapp\assets\global\plugins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1025,7 +583,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="chuanghuo" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 13.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../jdk1.8.0_171">
+    <configuration name="chuanghuo" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.10.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:\xinhai\jdk1.8\jre">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -1198,11 +756,14 @@
       <workItem from="1530099115909" duration="3604000" />
       <workItem from="1530186747385" duration="107000" />
       <workItem from="1530186962139" duration="154000" />
+      <workItem from="1531565625184" duration="1983000" />
+      <workItem from="1531570614267" duration="7857000" />
+      <workItem from="1531655690770" duration="6813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35527000" />
+    <option name="totallyTimeSpent" value="52180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1214,14 +775,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.43361583" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32918552" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299356" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="right" id="CDI" order="3" weight="0.3299356" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -1230,35 +793,33 @@
       <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43402225" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.43361583" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32627118" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32863188" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510981" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32768363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3299356" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="News Feed" order="3" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Reviews" order="7" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32750398" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1269,57 +830,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JBossConfiguration">
+        <watch expression="activityService.getActivityById(id)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" selection-start-line="54" selection-end-line="110" selection-end-column="99" />
+        <state relative-caret-position="867">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" selection-start-line="54" selection-end-line="110" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1367,90 +892,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/wxToken.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/wxToken.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/wxToken.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WxTokenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WeatherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WxTokenController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/showUser.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/wxToken.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/plugins/icheck/demo/js/zepto.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/css/plugins.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/plugins/datatables/datatables.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345" />
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/http/HttpServletRequest.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-259">
           <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/plugins/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4048">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1466,35 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" selection-start-line="54" selection-end-line="110" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQL/t_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/utils/SignUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1504,22 +929,284 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
+        <state relative-caret-position="1071">
           <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/WeatherController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ImageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/plugins/font-awesome-4.7.0/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1781#1782#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2385#2386#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2474#2475#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
+            <element signature="e#2861#2862#0" expanded="true" />
+            <element signature="e#2901#2902#0" expanded="true" />
+            <element signature="e#2938#2939#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3079#3080#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+            <element signature="e#3146#3147#0" expanded="true" />
+            <element signature="e#3195#3196#0" expanded="true" />
+            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3307#3308#0" expanded="true" />
+            <element signature="e#3357#3358#0" expanded="true" />
+            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+            <element signature="e#3509#3510#0" expanded="true" />
+            <element signature="e#3547#3548#0" expanded="true" />
+            <element signature="e#3583#3584#0" expanded="true" />
+            <element signature="e#3615#3616#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3707#3708#0" expanded="true" />
+            <element signature="e#3742#3743#0" expanded="true" />
+            <element signature="e#3773#3774#0" expanded="true" />
+            <element signature="e#3821#3822#0" expanded="true" />
+            <element signature="e#3861#3862#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#3939#3940#0" expanded="true" />
+            <element signature="e#3999#4000#0" expanded="true" />
+            <element signature="e#4051#4052#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
+            <element signature="e#4123#4124#0" expanded="true" />
+            <element signature="e#4177#4178#0" expanded="true" />
+            <element signature="e#4223#4224#0" expanded="true" />
+            <element signature="e#4264#4265#0" expanded="true" />
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4361#4362#0" expanded="true" />
+            <element signature="e#4413#4414#0" expanded="true" />
+            <element signature="e#4451#4452#0" expanded="true" />
+            <element signature="e#4485#4486#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+            <element signature="e#4585#4586#0" expanded="true" />
+            <element signature="e#4617#4618#0" expanded="true" />
+            <element signature="e#4648#4649#0" expanded="true" />
+            <element signature="e#4693#4694#0" expanded="true" />
+            <element signature="e#4733#4734#0" expanded="true" />
+            <element signature="e#4769#4770#0" expanded="true" />
+            <element signature="e#4803#4804#0" expanded="true" />
+            <element signature="e#4855#4856#0" expanded="true" />
+            <element signature="e#4901#4902#0" expanded="true" />
+            <element signature="e#4936#4937#0" expanded="true" />
+            <element signature="e#4969#4970#0" expanded="true" />
+            <element signature="e#5019#5020#0" expanded="true" />
+            <element signature="e#5063#5064#0" expanded="true" />
+            <element signature="e#5092#5093#0" expanded="true" />
+            <element signature="e#5120#5121#0" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="e#5193#5194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/global/plugins/moment-with-locales.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret column="135" selection-start-column="135" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/activity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="129" column="62" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="118" column="30" lean-forward="true" selection-start-line="118" selection-start-column="30" selection-end-line="119" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>

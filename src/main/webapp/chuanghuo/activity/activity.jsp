@@ -15,7 +15,7 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
     <!-- 第三方类库样式（开始） -->
-    <link href="<%=request.getContextPath()%>/assets/global/plugins/font-awesome/css/font-awesome.min.css"
+    <link href="<%=request.getContextPath()%>/assets/global/plugins/font-awesome-4.7.0/css/font-awesome.css"
           rel="stylesheet" type="text/css"/>
     <link href="<%=request.getContextPath()%>/assets/global/plugins/bootstrap/css/bootstrap.min.css"
           rel="stylesheet" type="text/css"/>
@@ -46,6 +46,8 @@
           rel="stylesheet">
     <link href="<%=request.getContextPath()%>/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css"
           rel="stylesheet" type="text/css"/>
+    <link href="<%=request.getContextPath()%>/assets/global/plugins/wangEditor/wangEditor.css"
+          rel="stylesheet" type="text/css"/>
     <!-- 页面级样式 -->
 
     <!-- 全局样式类（开始） -->
@@ -56,27 +58,22 @@
     <!-- 全局样式类（结束） -->
 </head>
 <body>
-<div class="row">
+<div class="row" id="activity">
     <div class="col-md-12">
         <div class="portlet light bordered">
             <div class="portlet-body">
                 <div class="table-toolbar">
                     <button id="btnNew" class="btn btn-primary">
-                        <i class="fa fa-plus"></i> 新增雇员
+                        <i class="fa fa-plus"></i> 新增活动
                     </button>
                 </div>
-                <table class="table table-striped table-bordered table-hover"
-                       id="employee_data">
+                <table class="table table-striped table-bordered table-hover text-center"
+                       id="activity_data">
                     <thead>
                     <tr>
-                        <th width="15%">姓名</th>
-                        <th width="15%">编号</th>
-                        <th width="10%">性别</th>
-                        <th width="10%">婚否</th>
-                        <th width="10%">年龄</th>
-                        <th width="10%">生日</th>
-                        <th width="15%">联系电话</th>
-                        <th width="15%">操作</th>
+                        <th class="text-center">标题</th>
+                        <th class="text-center">日期</th>
+                        <th class="text-center">操作</th>
                     </tr>
                     </thead>
                 </table>
@@ -142,6 +139,8 @@
 <script src="<%=request.getContextPath()%>/assets/global/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"
         type="text/javascript"></script>
 <script src="<%=request.getContextPath()%>/assets/global/plugins/jquery.bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/assets/global/plugins/app.js"></script>
+<script src="<%=request.getContextPath()%>/assets/global/plugins/wangEditor/wangEditor.js"></script>
 <script src="<%= request.getContextPath()%>/assets/pages/scripts/activity/activity.js"
         type="text/javascript"></script>
 <script type="text/javascript">

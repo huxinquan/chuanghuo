@@ -1,32 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.qijunsports.chuanghuo.dao.UserDao">
+<mapper namespace="com.qijunsports.chuanghuo.dao.ActivityDao">
 
-    <resultMap id="UserBaseMap" type="com.qijunsports.chuanghuo.model.User">
-        <id column="id" property="id" jdbcType="BIGINT"/>
-        <result column="user_name" property="userName" jdbcType="VARCHAR"/>
-        <result column="user_phone" property="userPhone" jdbcType="VARCHAR"/>
-        <result column="user_email" property="userEmail" jdbcType="VARCHAR"/>
-        <result column="user_pwd" property="userPwd" jdbcType="VARCHAR"/>
-        <result column="pwd_salt" property="pwdSalt" jdbcType="VARCHAR"/>
-        <result column="create_time" property="createTime" jdbcType="DATE"/>
-        <result column="modify_time" property="modifyTime" jdbcType="DATE"/>
-        <result column="is_delete" property="isDelete" jdbcType="SMALLINT"></result>
+    <resultMap id="ActivityMap" type="com.qijunsports.chuanghuo.model.ActivityInfo">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="tag" column="tag"/>
+        <result property="describe" column="describe"/>
+        <result property="content" column="content"/>
+        <result property="beginDate" column="begin_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="timePeriod" column="time_period"/>
+        <result property="minPeopleNumber" column="min_people_number"/>
+        <result property="maxPeopleNumber" column="max_people_number"/>
+        <result property="minPrice" column="min_price"/>
+        <result property="maxPrice" column="max_price"/>
+        <result property="discount" column="discount"/>
+        <result property="currentNumber" column="current_number"/>
+        <result property="soldNumber" column="sold_number"/>
+        <result property="storeName" column="store_name"/>
+        <result property="address" column="address"/>
+        <result property="longitude" column="longitude"/>
+        <result property="latitude" column="latitude"/>
+        <result property="fixedTelephone" column="fixed_telephone"/>
+        <result property="mobilePhone" column="mobile_phone"/>
+        <result property="transportation" column="transportation"/>
+        <result property="precautions" column="precautions"/>
+        <result property="isDelete" column="is_delete"/>
+        <result property="publishDate" column="publish_date"/>
+        <result property="updateDate" column="update_date"/>
+        <result property="order" column="order"/>
     </resultMap>
 
-    <select id="selectUserById" parameterType="java.lang.Long" resultMap="UserBaseMap">
-        SELECT * FROM t_user
-        WHERE id = #{userId}
+    <select id="getAllActivity" resultMap="ActivityMap">
+      SELECT *
+      FROM activity_info
+      WHERE is_delete=0
+      ORDER BY `order`
     </select>
 
-    <select id="selectUserByPhoneOrEmail" resultMap="UserBaseMap">
-        SELECT * FROM t_user
-        WHERE user_email = #{emailOrPhone} OR user_phone = #{emailOrPhone}
-        AND user_state = #{state}
+    <select id="getActivityById" resultMap="ActivityMap">
+      SELECT *
+      FROM activity_info
+      WHERE id=#{id}
+      AND is_delete=0
     </select>
 
-    <select id="selectAllUser" resultMap="UserBaseMap">
-        SELECT * FROM t_user
-    </select>
+    <insert id="addActivity" parameterType="com.qijunsports.chuanghuo.model.ActivityInfo">
+      INSERT INTO activity_info
+      (id, title, content)
+      VALUES
+      (#{activityInfo.id}, #{activityInfo.title}, #{activityInfo.content})
+    </insert>
 
+    <update id="updateActivity" parameterType="com.qijunsports.chuanghuo.model.ActivityInfo">
+        UPDATE activity_info
+        <set>
+            <if test="activityInfo.title != null">
+                title = #{activityInfo.title},
+            </if>
+            <if test="activityInfo.content != null">
+                content = #{activityInfo.content},
+            </if>
+            <if test="activityInfo.isDelete != null">
+                is_delete = #{activityInfo.isDelete}
+            </if>
+        </set>
+        WHERE id=#{id}
+    </update>
 </mapper>
