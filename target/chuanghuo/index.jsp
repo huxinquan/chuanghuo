@@ -50,7 +50,6 @@
 </head>
 <body>
 <h2 style="text-align: center;">闯货</h2>
-<div id="shabi">shabi</div>
 </body>
 <script src="<%=request.getContextPath()%>/assets/global/plugins/jquery.min.js"
         type="text/javascript"></script>
@@ -111,9 +110,7 @@
 <script src="<%=request.getContextPath()%>/assets/global/plugins/jquery.bootstrap.min.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('#shabi').on('click', function () {
-            alert(123);
-        });
+
     });
 </script>
 </html>

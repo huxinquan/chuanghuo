@@ -1,8 +1,7 @@
-com\qijunsports\chuanghuo\dao\UserDao.class
-com\qijunsports\chuanghuo\controller\WxTokenController.class
-com\qijunsports\chuanghuo\service\UserService.class
-com\qijunsports\chuanghuo\service\impl\UserServiceImpl.class
+com\qijunsports\chuanghuo\model\ActivityInfo.class
+com\qijunsports\chuanghuo\dao\ActivityDao.class
+com\qijunsports\chuanghuo\controller\ActivityController.class
 com\qijunsports\chuanghuo\utils\SignUtil.class
-com\qijunsports\chuanghuo\controller\UserController.class
-com\qijunsports\chuanghuo\model\User.class
-com\qijunsports\chuanghuo\controller\WeatherController.class
+com\qijunsports\chuanghuo\model\ImageInfo.class
+com\qijunsports\chuanghuo\service\ActivityService.class
+com\qijunsports\chuanghuo\service\impl\ActivityServiceImpl.class
