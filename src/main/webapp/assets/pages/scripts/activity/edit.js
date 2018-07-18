@@ -48,8 +48,25 @@ var activityEdit = function () {
             'video',  // 插入视频
             'undo'  // 撤销
         ];
-        configMap.editor.create();
+        // 上传图片
+        configMap.editor.customConfig.uploadImgServer = configMap.path + '/Img/upload'; //上传URL
+        configMap.editor.customConfig.uploadImgMaxSize = 3 * 1024 * 1024;
+        configMap.editor.customConfig.uploadImgMaxLength = 50;
+        configMap.editor.customConfig.uploadFileName = 'myFileName';
+        configMap.editor.customConfig.uploadImgHooks = {
+            customInsert: function (insertImg, result, editor) {
+                // 图片上传并返回结果，自定义插入图片的事件（而不是编辑器自动插入图片！！！）
+                // insertImg 是插入图片的函数，editor 是编辑器对象，result 是服务器端返回的结果
 
+                // 举例：假如上传图片成功后，服务器端返回的是 {url:'....'} 这种格式，即可这样插入图片：
+                var url = result.data;
+                insertImg(url);
+
+                // result 必须是一个 JSON 格式字符串！！！否则报错
+            }
+        };
+
+        configMap.editor.create();
 
         if (configMap.id) {
             getActivity(configMap.id);
