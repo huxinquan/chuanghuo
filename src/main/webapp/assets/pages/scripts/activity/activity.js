@@ -47,7 +47,7 @@ var activity = function () {
         App.blockUI({
             target: jqueryMap.$blockTarget,
             boxed: true,
-            message: '正在保存数据...'
+            message: '正在获取数据...'
         });
         $.ajax({
             url: configMap.path + configMap.dataUrl + '/getAllActivity',
