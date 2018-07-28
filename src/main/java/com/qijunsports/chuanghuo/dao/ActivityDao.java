@@ -8,12 +8,14 @@ import java.util.List;
 
 @Repository
 public interface ActivityDao {
-    List<ActivityInfo> getAllActivity();
+  List<ActivityInfo> getAllActivity();
 
-    ActivityInfo getActivityById(@Param("id") String id);
+  ActivityInfo getActivityById(@Param("id") String id);
 
-    void addActivity(@Param("activityInfo") ActivityInfo activityInfo);
+  void addActivity(@Param("activityInfo") ActivityInfo activityInfo);
 
-    void updateActivity(@Param("id") String id,
-                        @Param("activityInfo") ActivityInfo activityInfo);
+  void updateActivity(@Param("id") String id,
+                      @Param("activityInfo") ActivityInfo activityInfo);
+
+  int getIsTopCount();
 }

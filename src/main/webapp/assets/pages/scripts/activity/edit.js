@@ -17,20 +17,32 @@ var activityEdit = function () {
     // 全局属性参数
     var configMap = {
         path: '',
+        blockTarget: '',
         dataUrl: '/activity/activity',
         id: '',
-        editor: ''
+        editor: '',
+        alreadyTop: ''
     };
 
     // 全局Dom
     var jqueryMap = {
         $activityForm: null,
-        $title: null
+        $title: null,
+        $describe: null,
+        $minPeopleNumber: null,
+        $maxPeopleNumber: null,
+        $beginDate: null,
+        $endDate: null
     };
 
     var setJqueryMap = function () {
         jqueryMap.$activityForm = $('#activityForm');
         jqueryMap.$title = jqueryMap.$activityForm.find('#title');
+        jqueryMap.$describe = jqueryMap.$activityForm.find('#describe');
+        jqueryMap.$minPeopleNumber = jqueryMap.$activityForm.find('#minPeopleNumber');
+        jqueryMap.$maxPeopleNumber = jqueryMap.$activityForm.find('#maxPeopleNumber');
+        jqueryMap.$beginDate = jqueryMap.$activityForm.find('#beginDate');
+        jqueryMap.$endDate = jqueryMap.$activityForm.find('#endDate');
     };
 
     var initEditor = function () {
@@ -61,7 +73,6 @@ var activityEdit = function () {
                 // 举例：假如上传图片成功后，服务器端返回的是 {url:'....'} 这种格式，即可这样插入图片：
                 var url = result.data;
                 insertImg(url);
-
                 // result 必须是一个 JSON 格式字符串！！！否则报错
             }
         };
@@ -73,71 +84,158 @@ var activityEdit = function () {
         }
     };
 
+    var initDateTimePicker = function () {
+        jqueryMap.$beginDate.datetimepicker({
+            format: 'yyyy-mm-dd',
+            startView: 'month',
+            minView: 'hour',
+            language: 'zh-CN',
+            autoclose: true
+        }).on('click', function () {
+            jqueryMap.$beginDate.datetimepicker("setEndDate", jqueryMap.$endDate.val())
+        });
+
+        jqueryMap.$endDate.datetimepicker({
+            format: 'yyyy-mm-dd',
+            startView: 'month',
+            minView: 'hour',
+            language: 'zh-CN',
+            autoclose: true
+        }).on('click', function () {
+            jqueryMap.$endDate.datetimepicker("setStartDate", jqueryMap.$beginDate.val())
+        });
+
+        jqueryMap.$beginDate.val(moment().format('YYYY-MM-DD'));
+        jqueryMap.$endDate.val(moment().add(1, 'months').format('YYYY-MM-DD'));
+
+        jqueryMap.$beginDate.parent().find('button.btn-default').off('click').on('click', function () {
+            jqueryMap.$beginDate.datetimepicker('show');
+        });
+
+        jqueryMap.$endDate.parent().find('button.btn-default').off('click').on('click', function () {
+            jqueryMap.$endDate.datetimepicker('show');
+        });
+    };
+
+    var initIcheck = function () {
+        jqueryMap.$activityForm.find('input[name="subLevel"]').iCheck({
+            checkboxClass: 'icheckbox_minimal',
+            radioClass: 'iradio_minimal',
+            increaseArea: '20%'
+        });
+        jqueryMap.$activityForm.find('input[name=isTop][value="0"]').iCheck('check');
+    };
+
     var saveActivity = function (callback) {
-        var blockTarget = jqueryMap.$activityForm.closest(".modal-content");
         App.blockUI({
-            target: blockTarget,
+            target: configMap.blockTarget,
             boxed: true,
             message: '正在保存数据...'
         });
 
         var data = {
             title: jqueryMap.$title.val(),
-            content: configMap.editor.txt.html()
+            describe: jqueryMap.$describe.val(),
+            minPeopleNumber: jqueryMap.$minPeopleNumber.val(),
+            maxPeopleNumber: jqueryMap.$maxPeopleNumber.val(),
+            beginDate: jqueryMap.$beginDate.val(),
+            endDate: jqueryMap.$endDate.val(),
+            content: configMap.editor.txt.html(),
+            isTop: jqueryMap.$activityForm.find('input[name=isTop]:checked').val()
         };
 
-        var url = configMap.path + configMap.dataUrl;
-        var requestType = 'POST';
-        if (configMap.id) {
-            url = url + "/" + configMap.id;
-            requestType = 'PUT';
-        }
-
         $.ajax({
-            url: url,
-            type: requestType,
+            url: configMap.path + configMap.dataUrl + '/getIsTopCount',
+            type: 'GET',
             contentType: 'application/json; charset=utf-8',
-            data: JSON.stringify(data),
-            success: function () {
-                App.unblockUI(blockTarget);
-                callback(true);
+            success: function (result) {
+                App.unblockUI(configMap.blockTarget);
+                var topValue = jqueryMap.$activityForm.find('[name=isTop]:checked').val();
+                if (result >= 3 && topValue === '1' && configMap.alreadyTop !== '1') {
+                    $.messager.popup("只能设置三个轮播活动！");
+                    jqueryMap.$activityForm.find('[name=isTop][value=0]').iCheck('check');
+                } else {
+                    var url = configMap.path + configMap.dataUrl;
+                    var requestType = 'POST';
+                    if (configMap.id) {
+                        url = url + "/" + configMap.id;
+                        requestType = 'PUT';
+                    }
+
+                    $.ajax({
+                        url: url,
+                        type: requestType,
+                        contentType: 'application/json; charset=utf-8',
+                        data: JSON.stringify(data),
+                        success: function () {
+                            App.unblockUI(configMap.blockTarget);
+                            callback(true);
+                        },
+                        error: function () {
+                            App.unblockUI(configMap.blockTarget);
+                            App.alert({
+                                container: jqueryMap.$activityForm.closest(".modal-body"),
+                                place: 'prepend',
+                                type: 'danger',
+                                message: '保存失败！',
+                                icon: 'fa fa-warning'
+                            });
+                            callback(false);
+                        }
+                    });
+                }
             },
             error: function () {
-                App.unblockUI(blockTarget);
-                App.alert({
-                    container: jqueryMap.$activityForm.closest(".modal-body"),
-                    place: 'prepend',
-                    type: 'danger',
-                    message: '保存失败！',
-                    icon: 'fa fa-warning'
-                });
-                callback(false);
+                App.unblockUI(configMap.blockTarget);
+                $.messager.popup('获取活动失败');
             }
         });
     };
 
     var getActivity = function (id) {
+        App.blockUI({
+            target: configMap.blockTarget,
+            boxed: true,
+            message: '正在保存数据...'
+        });
         $.ajax({
             url: configMap.path + configMap.dataUrl + '/' + id,
             dataType: 'JSON',
             type: 'GET',
             success: function (data) {
+                App.unblockUI(configMap.blockTarget);
                 jqueryMap.$title.val(data.title);
+                jqueryMap.$describe.val(data.describe);
+                jqueryMap.$minPeopleNumber.val(data.minPeopleNumber);
+                jqueryMap.$maxPeopleNumber.val(data.maxPeopleNumber);
+                jqueryMap.$beginDate.val(moment().format('YYYY-MM-DD'));
+                jqueryMap.$endDate.val(moment().format('YYYY-MM-DD'));
                 configMap.editor.txt.html(data.content);
+                jqueryMap.$activityForm.find('input[name=isTop][value="' + data.isTop + '"]').iCheck('check');
+
+                configMap.alreadyTop = jqueryMap.$activityForm.find('input[name=isTop]:checked').val();
             },
             error: function () {
+                App.unblockUI(configMap.blockTarget);
                 $.messager.popup('获取活动失败');
             }
         });
+    };
+
+    var event = function () {
+        configMap.blockTarget = jqueryMap.$activityForm.closest(".modal-content");
     };
 
     return {
         init: function (id) {
             configMap.id = id;
             setJqueryMap();
+            event();
             setTimeout(function () {
                 initEditor();
             }, 200);
+            initDateTimePicker();
+            initIcheck();
         },
         setPath: function (path) {
             configMap.path = path;

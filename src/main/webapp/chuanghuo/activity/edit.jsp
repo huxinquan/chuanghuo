@@ -18,7 +18,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label class="control-label col-md-3">
-                        标题：
+                        活动标题：
                     </label>
                     <div class="col-md-9">
                         <input type="text" class="form-control" id="title">
@@ -30,11 +30,93 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label class="control-label col-md-3">
-                        内容：
+                        活动描述：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="describe">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        活动人数：
+                    </label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="minPeopleNumber">
+                    </div>
+                    <div class="col-md-1">
+                        <span><B> ～ </B></span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="maxPeopleNumber">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        活动时间：
+                    </label>
+                    <div class="col-md-4">
+                        <div class="input-group date search-box search-input-small pull-left">
+                            <input class="form-control input-sm" type="text" id="beginDate">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-calendar"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <span><B> ～ </B></span>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group date search-box search-input-small pull-left">
+                            <input class="form-control input-sm" type="text" id="endDate">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-calendar"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        活动内容：
                     </label>
                     <div class="col-md-9">
                         <div id="editor">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        是否轮播：
+                    </label>
+                    <div class="col-md-9">
+                        <div id="check" class="radio-list">
+                            <label class="radio-inline">
+                                <input type="radio" name="isTop"
+                                       value="1"> 是
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="isTop"
+                                       value="0"> 否
+                            </label>
                     </div>
                 </div>
             </div>

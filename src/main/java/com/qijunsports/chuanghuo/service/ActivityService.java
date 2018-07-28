@@ -5,11 +5,13 @@ import com.qijunsports.chuanghuo.model.ActivityInfo;
 import java.util.List;
 
 public interface ActivityService {
-    List<ActivityInfo> getAllActivity();
+  List<ActivityInfo> getAllActivity();
 
-    ActivityInfo getActivityById(String id);
+  ActivityInfo getActivityById(String id);
 
-    void addActivity(ActivityInfo activityInfo);
+  void addActivity(ActivityInfo activityInfo);
 
-    void updateActivity(String id, ActivityInfo activityInfo);
+  void updateActivity(String id, ActivityInfo activityInfo);
+
+  int getIsTopCount();
 }

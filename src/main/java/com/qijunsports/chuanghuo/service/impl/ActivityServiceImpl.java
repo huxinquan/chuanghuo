@@ -11,22 +11,26 @@ import java.util.List;
 @Service
 public class ActivityServiceImpl implements ActivityService {
 
-    @Autowired
-    private ActivityDao activityDao;
+  @Autowired
+  private ActivityDao activityDao;
 
-    public List<ActivityInfo> getAllActivity() {
-        return activityDao.getAllActivity();
-    }
+  public List<ActivityInfo> getAllActivity() {
+    return activityDao.getAllActivity();
+  }
 
-    public ActivityInfo getActivityById(String id) {
-        return activityDao.getActivityById(id);
-    }
+  public ActivityInfo getActivityById(String id) {
+    return activityDao.getActivityById(id);
+  }
 
-    public void addActivity(ActivityInfo activityInfo) {
-        activityDao.addActivity(activityInfo);
-    }
+  public void addActivity(ActivityInfo activityInfo) {
+    activityDao.addActivity(activityInfo);
+  }
 
-    public void updateActivity(String id, ActivityInfo activityInfo) {
-        activityDao.updateActivity(id, activityInfo);
-    }
+  public void updateActivity(String id, ActivityInfo activityInfo) {
+    activityDao.updateActivity(id, activityInfo);
+  }
+
+  public int getIsTopCount() {
+    return activityDao.getIsTopCount();
+  }
 }

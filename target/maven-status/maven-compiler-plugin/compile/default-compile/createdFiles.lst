@@ -1,5 +1,8 @@
-com\qijunsports\chuanghuo\utils\SignUtil.class
+com\qijunsports\chuanghuo\model\ActivityInfo.class
 com\qijunsports\chuanghuo\dao\ActivityDao.class
-com\qijunsports\chuanghuo\service\ActivityService.class
 com\qijunsports\chuanghuo\controller\ActivityController.class
+com\qijunsports\chuanghuo\utils\SignUtil.class
+com\qijunsports\chuanghuo\controller\ImgController.class
+com\qijunsports\chuanghuo\model\ImageInfo.class
+com\qijunsports\chuanghuo\service\ActivityService.class
 com\qijunsports\chuanghuo\service\impl\ActivityServiceImpl.class

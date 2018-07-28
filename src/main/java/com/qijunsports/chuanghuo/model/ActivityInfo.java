@@ -4,250 +4,278 @@ import java.util.Date;
 
 /**
  * 活动
+ *
  * @author huxinquan
  */
 public class ActivityInfo {
-    private String id;
-    private String title;
-    private String tag;
-    private String describe;
-    private String content;
-    private Date beginDate;
-    private Date endDate;
-    private String timePeriod;
-    private int minPeopleNumber;
-    private int maxPeopleNumber;
-    private double minPrice;
-    private double maxPrice;
-    private double discount;
-    private int currentNumber;
-    private int soldNumber;
-    private String storeName;
-    private String address;
-    private String longitude;
-    private String latitude;
-    private String fixedTelephone;
-    private String mobilePhone;
-    private String transportation;
-    private String precautions;
-    private int isDelete;
-    private Date publishDate;
-    private Date updateDate;
-    private int order;
+  private String id;
+  private String thumbnail;
+  private String title;
+  private String tag;
+  private String describe;
+  private String content;
+  private String picTop;
+  private Date beginDate;
+  private Date endDate;
+  private String timePeriod;
+  private int minPeopleNumber;
+  private int maxPeopleNumber;
+  private double minPrice;
+  private double maxPrice;
+  private double discount;
+  private int currentNumber;
+  private int soldNumber;
+  private String storeName;
+  private String address;
+  private String longitude;
+  private String latitude;
+  private String fixedTelephone;
+  private String mobilePhone;
+  private String transportation;
+  private String precautions;
+  private int isDelete;
+  private Date publishDate;
+  private Date updateDate;
+  private int order;
+  private int isTop;
 
-    public String getId() {
-        return id;
-    }
+  public String getId() {
+    return id;
+  }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+  public void setId(String id) {
+    this.id = id;
+  }
 
-    public String getTitle() {
-        return title;
-    }
+  public String getThumbnail() {
+    return thumbnail;
+  }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+  public void setThumbnail(String thumbnail) {
+    this.thumbnail = thumbnail;
+  }
 
-    public String getTag() {
-        return tag;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public void setTag(String tag) {
-        this.tag = tag;
-    }
+  public void setTitle(String title) {
+    this.title = title;
+  }
 
-    public String getDescribe() {
-        return describe;
-    }
+  public String getTag() {
+    return tag;
+  }
 
-    public void setDescribe(String describe) {
-        this.describe = describe;
-    }
+  public void setTag(String tag) {
+    this.tag = tag;
+  }
 
-    public String getContent() {
-        return content;
-    }
+  public String getDescribe() {
+    return describe;
+  }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+  public void setDescribe(String describe) {
+    this.describe = describe;
+  }
 
-    public Date getBeginDate() {
-        return beginDate;
-    }
+  public String getContent() {
+    return content;
+  }
 
-    public void setBeginDate(Date beginDate) {
-        this.beginDate = beginDate;
-    }
+  public void setContent(String content) {
+    this.content = content;
+  }
 
-    public Date getEndDate() {
-        return endDate;
-    }
+  public String getPicTop() {
+    return picTop;
+  }
 
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
-    }
+  public void setPicTop(String picTop) {
+    this.picTop = picTop;
+  }
 
-    public String getTimePeriod() {
-        return timePeriod;
-    }
+  public Date getBeginDate() {
+    return beginDate;
+  }
 
-    public void setTimePeriod(String timePeriod) {
-        this.timePeriod = timePeriod;
-    }
+  public void setBeginDate(Date beginDate) {
+    this.beginDate = beginDate;
+  }
 
-    public int getMinPeopleNumber() {
-        return minPeopleNumber;
-    }
+  public Date getEndDate() {
+    return endDate;
+  }
 
-    public void setMinPeopleNumber(int minPeopleNumber) {
-        this.minPeopleNumber = minPeopleNumber;
-    }
+  public void setEndDate(Date endDate) {
+    this.endDate = endDate;
+  }
 
-    public int getMaxPeopleNumber() {
-        return maxPeopleNumber;
-    }
+  public String getTimePeriod() {
+    return timePeriod;
+  }
 
-    public void setMaxPeopleNumber(int maxPeopleNumber) {
-        this.maxPeopleNumber = maxPeopleNumber;
-    }
+  public void setTimePeriod(String timePeriod) {
+    this.timePeriod = timePeriod;
+  }
 
-    public double getMinPrice() {
-        return minPrice;
-    }
+  public int getMinPeopleNumber() {
+    return minPeopleNumber;
+  }
 
-    public void setMinPrice(double minPrice) {
-        this.minPrice = minPrice;
-    }
+  public void setMinPeopleNumber(int minPeopleNumber) {
+    this.minPeopleNumber = minPeopleNumber;
+  }
 
-    public double getMaxPrice() {
-        return maxPrice;
-    }
+  public int getMaxPeopleNumber() {
+    return maxPeopleNumber;
+  }
 
-    public void setMaxPrice(double maxPrice) {
-        this.maxPrice = maxPrice;
-    }
+  public void setMaxPeopleNumber(int maxPeopleNumber) {
+    this.maxPeopleNumber = maxPeopleNumber;
+  }
 
-    public double getDiscount() {
-        return discount;
-    }
+  public double getMinPrice() {
+    return minPrice;
+  }
 
-    public void setDiscount(double discount) {
-        this.discount = discount;
-    }
+  public void setMinPrice(double minPrice) {
+    this.minPrice = minPrice;
+  }
 
-    public int getCurrentNumber() {
-        return currentNumber;
-    }
+  public double getMaxPrice() {
+    return maxPrice;
+  }
 
-    public void setCurrentNumber(int currentNumber) {
-        this.currentNumber = currentNumber;
-    }
+  public void setMaxPrice(double maxPrice) {
+    this.maxPrice = maxPrice;
+  }
 
-    public int getSoldNumber() {
-        return soldNumber;
-    }
+  public double getDiscount() {
+    return discount;
+  }
 
-    public void setSoldNumber(int soldNumber) {
-        this.soldNumber = soldNumber;
-    }
+  public void setDiscount(double discount) {
+    this.discount = discount;
+  }
 
-    public String getStoreName() {
-        return storeName;
-    }
+  public int getCurrentNumber() {
+    return currentNumber;
+  }
 
-    public void setStoreName(String storeName) {
-        this.storeName = storeName;
-    }
+  public void setCurrentNumber(int currentNumber) {
+    this.currentNumber = currentNumber;
+  }
 
-    public String getAddress() {
-        return address;
-    }
+  public int getSoldNumber() {
+    return soldNumber;
+  }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+  public void setSoldNumber(int soldNumber) {
+    this.soldNumber = soldNumber;
+  }
 
-    public String getLongitude() {
-        return longitude;
-    }
+  public String getStoreName() {
+    return storeName;
+  }
 
-    public void setLongitude(String longitude) {
-        this.longitude = longitude;
-    }
+  public void setStoreName(String storeName) {
+    this.storeName = storeName;
+  }
 
-    public String getLatitude() {
-        return latitude;
-    }
+  public String getAddress() {
+    return address;
+  }
 
-    public void setLatitude(String latitude) {
-        this.latitude = latitude;
-    }
+  public void setAddress(String address) {
+    this.address = address;
+  }
 
-    public String getFixedTelephone() {
-        return fixedTelephone;
-    }
+  public String getLongitude() {
+    return longitude;
+  }
 
-    public void setFixedTelephone(String fixedTelephone) {
-        this.fixedTelephone = fixedTelephone;
-    }
+  public void setLongitude(String longitude) {
+    this.longitude = longitude;
+  }
 
-    public String getMobilePhone() {
-        return mobilePhone;
-    }
+  public String getLatitude() {
+    return latitude;
+  }
 
-    public void setMobilePhone(String mobilePhone) {
-        this.mobilePhone = mobilePhone;
-    }
+  public void setLatitude(String latitude) {
+    this.latitude = latitude;
+  }
 
-    public String getTransportation() {
-        return transportation;
-    }
+  public String getFixedTelephone() {
+    return fixedTelephone;
+  }
 
-    public void setTransportation(String transportation) {
-        this.transportation = transportation;
-    }
+  public void setFixedTelephone(String fixedTelephone) {
+    this.fixedTelephone = fixedTelephone;
+  }
 
-    public String getPrecautions() {
-        return precautions;
-    }
+  public String getMobilePhone() {
+    return mobilePhone;
+  }
 
-    public void setPrecautions(String precautions) {
-        this.precautions = precautions;
-    }
+  public void setMobilePhone(String mobilePhone) {
+    this.mobilePhone = mobilePhone;
+  }
 
-    public int getIsDelete() {
-        return isDelete;
-    }
+  public String getTransportation() {
+    return transportation;
+  }
 
-    public void setIsDelete(int isDelete) {
-        this.isDelete = isDelete;
-    }
+  public void setTransportation(String transportation) {
+    this.transportation = transportation;
+  }
 
-    public Date getPublishDate() {
-        return publishDate;
-    }
+  public String getPrecautions() {
+    return precautions;
+  }
 
-    public void setPublishDate(Date publishDate) {
-        this.publishDate = publishDate;
-    }
+  public void setPrecautions(String precautions) {
+    this.precautions = precautions;
+  }
 
-    public Date getUpdateDate() {
-        return updateDate;
-    }
+  public int getIsDelete() {
+    return isDelete;
+  }
 
-    public void setUpdateDate(Date updateDate) {
-        this.updateDate = updateDate;
-    }
+  public void setIsDelete(int isDelete) {
+    this.isDelete = isDelete;
+  }
 
-    public int getOrder() {
-        return order;
-    }
+  public Date getPublishDate() {
+    return publishDate;
+  }
 
-    public void setOrder(int order) {
-        this.order = order;
-    }
+  public void setPublishDate(Date publishDate) {
+    this.publishDate = publishDate;
+  }
+
+  public Date getUpdateDate() {
+    return updateDate;
+  }
+
+  public void setUpdateDate(Date updateDate) {
+    this.updateDate = updateDate;
+  }
+
+  public int getOrder() {
+    return order;
+  }
+
+  public void setOrder(int order) {
+    this.order = order;
+  }
+
+  public int getIsTop() {
+    return isTop;
+  }
+
+  public void setIsTop(int isTop) {
+    this.isTop = isTop;
+  }
 }

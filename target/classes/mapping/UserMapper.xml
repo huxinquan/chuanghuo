@@ -4,10 +4,12 @@
 
     <resultMap id="ActivityMap" type="com.qijunsports.chuanghuo.model.ActivityInfo">
         <result property="id" column="id"/>
+        <result property="thumbnail" column="thumbnail"/>
         <result property="title" column="title"/>
         <result property="tag" column="tag"/>
         <result property="describe" column="describe"/>
         <result property="content" column="content"/>
+        <result property="picTop" column="pic_top"/>
         <result property="beginDate" column="begin_date"/>
         <result property="endDate" column="end_date"/>
         <result property="timePeriod" column="time_period"/>
@@ -30,13 +32,14 @@
         <result property="publishDate" column="publish_date"/>
         <result property="updateDate" column="update_date"/>
         <result property="order" column="order"/>
+        <result property="isTop" column="is_top"/>
     </resultMap>
 
     <select id="getAllActivity" resultMap="ActivityMap">
       SELECT *
       FROM activity_info
       WHERE is_delete=0
-      ORDER BY `order`
+      ORDER BY `order`, is_top
     </select>
 
     <select id="getActivityById" resultMap="ActivityMap">
@@ -48,24 +51,111 @@
 
     <insert id="addActivity" parameterType="com.qijunsports.chuanghuo.model.ActivityInfo">
       INSERT INTO activity_info
-      (id, title, content)
+      (id, thumbnail, title, tag, `describe`, content, pic_top, begin_date, end_date, time_period, min_people_number,
+      max_people_number, min_price, max_price, discount, current_number, sold_number, store_name, address, longitude,
+      latitude, fixed_telephone, mobile_phone, transportation, precautions, is_top)
       VALUES
-      (#{activityInfo.id}, #{activityInfo.title}, #{activityInfo.content})
+      (#{activityInfo.id}, #{activityInfo.thumbnail}, #{activityInfo.title}, #{activityInfo.tag},#{activityInfo.describe},
+      #{activityInfo.content}, #{activityInfo.picTop}, #{activityInfo.beginDate}, #{activityInfo.endDate},
+      #{activityInfo.timePeriod}, #{activityInfo.minPeopleNumber}, #{activityInfo.maxPeopleNumber}, #{activityInfo.minPrice},
+      #{activityInfo.maxPrice}, #{activityInfo.discount}, #{activityInfo.currentNumber}, #{activityInfo.soldNumber},
+      #{activityInfo.storeName}, #{activityInfo.address}, #{activityInfo.longitude}, #{activityInfo.latitude},
+      #{activityInfo.fixedTelephone}, #{activityInfo.mobilePhone}, #{activityInfo.transportation}, #{activityInfo.precautions},
+      #{activityInfo.isTop})
     </insert>
 
     <update id="updateActivity" parameterType="com.qijunsports.chuanghuo.model.ActivityInfo">
         UPDATE activity_info
         <set>
+            <if test="activityInfo.thumbnail != null">
+                thumbnail = #{activityInfo.thumbnail},
+            </if>
             <if test="activityInfo.title != null">
                 title = #{activityInfo.title},
+            </if>
+            <if test="activityInfo.tag != null">
+                tag = #{activityInfo.tag},
+            </if>
+            <if test="activityInfo.describe != null">
+                `describe` = #{activityInfo.describe},
             </if>
             <if test="activityInfo.content != null">
                 content = #{activityInfo.content},
             </if>
+            <if test="activityInfo.picTop != null">
+                pic_top = #{activityInfo.picTop},
+            </if>
+            <if test="activityInfo.beginDate != null">
+                begin_date = #{activityInfo.beginDate},
+            </if>
+            <if test="activityInfo.endDate != null">
+                end_date = #{activityInfo.endDate},
+            </if>
+            <if test="activityInfo.timePeriod != null">
+                time_period = #{activityInfo.timePeriod},
+            </if>
+            <if test="activityInfo.minPeopleNumber != null">
+                min_people_number = #{activityInfo.minPeopleNumber},
+            </if>
+            <if test="activityInfo.maxPeopleNumber != null">
+                max_people_number = #{activityInfo.maxPeopleNumber},
+            </if>
+            <if test="activityInfo.minPrice != null">
+                min_price = #{activityInfo.minPrice},
+            </if>
+            <if test="activityInfo.maxPrice != null">
+                max_price = #{activityInfo.maxPrice},
+            </if>
+            <if test="activityInfo.discount != null">
+                discount = #{activityInfo.discount},
+            </if>
+            <if test="activityInfo.currentNumber != null">
+                current_number = #{activityInfo.currentNumber},
+            </if>
+            <if test="activityInfo.soldNumber != null">
+                sold_number = #{activityInfo.soldNumber},
+            </if>
+            <if test="activityInfo.storeName != null">
+                store_name = #{activityInfo.storeName},
+            </if>
+            <if test="activityInfo.address != null">
+                address = #{activityInfo.address},
+            </if>
+            <if test="activityInfo.longitude != null">
+                longitude = #{activityInfo.longitude},
+            </if>
+            <if test="activityInfo.latitude != null">
+                latitude = #{activityInfo.latitude},
+            </if>
+            <if test="activityInfo.fixedTelephone != null">
+                fixed_telephone = #{activityInfo.fixedTelephone},
+            </if>
+            <if test="activityInfo.mobilePhone != null">
+                mobile_phone = #{activityInfo.mobilePhone},
+            </if>
+            <if test="activityInfo.transportation != null">
+                transportation = #{activityInfo.transportation},
+            </if>
+            <if test="activityInfo.precautions != null">
+                precautions = #{activityInfo.precautions},
+            </if>
             <if test="activityInfo.isDelete != null">
-                is_delete = #{activityInfo.isDelete}
+                is_delete = #{activityInfo.isDelete},
+            </if>
+            <if test="activityInfo.updateDate != null">
+                update_date = #{activityInfo.updateDate},
+            </if>
+            <if test="activityInfo.isTop != null">
+                is_top = #{activityInfo.isTop}
             </if>
         </set>
         WHERE id=#{id}
     </update>
+
+    <select id="getIsTopCount" resultType="java.lang.Integer">
+        SELECT COUNT(is_top)
+        FROM activity_info
+        WHERE is_top=1
+        AND is_delete=0
+    </select>
 </mapper>

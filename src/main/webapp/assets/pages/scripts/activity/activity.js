@@ -57,7 +57,7 @@ var activity = function () {
                 App.unblockUI(jqueryMap.$blockTarget);
                 configMap.activityGrid.clear().draw();
                 if (datas.length > 0) {
-                    return configMap.activityGrid.rows.add(datas).draw();
+                    configMap.activityGrid.rows.add(datas).draw();
                 }
             },
             error: function () {
@@ -146,7 +146,7 @@ var activity = function () {
     };
 
     var initActivityGrid = function () {
-        configMap.activityGrid = $('#activity_data').DataTable({
+        configMap.activityGrid = jqueryMap.$myContainer.find('#activity_data').DataTable({
             "dom": 'rt<"row"<"col-md-6"<"pull-left"i><"pull-left"l>><"col-md-6"p>><"clear">',
             "ordering": false,
             "destroy": true,
@@ -178,7 +178,14 @@ var activity = function () {
             },
             "columns": [
                 {
-                    "data": "title"
+                    "data": "title",
+                    "render": function (data, type, row) {
+                        if (row.isTop === 1) {
+                            return '<B style="color: red;">[轮播]</B> ' + data;
+                        } else {
+                            return data;
+                        }
+                    }
                 },
                 {
                     "data": "publishDate",
