@@ -6,28 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8da33653-c460-412b-a973-aa8a4998ed4a" name="Default" comment="上传图片">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="8da33653-c460-412b-a973-aa8a4998ed4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ImgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ImgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/dao/ActivityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/activity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/chuanghuo/WEB-INF/classes/mapping/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -190,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/model/ActivityInfo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/chuanghuo/activity/edit.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ImgController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/ActivityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/service/impl/ActivityServiceImpl.java" />
@@ -199,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qijunsports/chuanghuo/controller/ActivityController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -432,6 +421,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chuanghuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chuanghuo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -673,7 +667,7 @@
       <workItem from="1532603315973" duration="2393000" />
       <workItem from="1532606163666" duration="4138000" />
       <workItem from="1532651666232" duration="1215000" />
-      <workItem from="1532741840743" duration="5284000" />
+      <workItem from="1532741840743" duration="5388000" />
     </task>
     <task id="LOCAL-00001" summary="增删改查&#10;wangEditor">
       <created>1531663122457</created>
@@ -703,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531915316761</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.修改上传图片路径&#10;2.增加轮播数量限制">
+      <created>1532747167967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532747167967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83775000" />
+    <option name="totallyTimeSpent" value="83879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,7 +750,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32768363" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3299356" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -815,7 +816,8 @@
     <MESSAGE value="提交一下" />
     <MESSAGE value="mysql 版本升级到8" />
     <MESSAGE value="上传图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传图片" />
+    <MESSAGE value="1.修改上传图片路径&#10;2.增加轮播数量限制" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改上传图片路径&#10;2.增加轮播数量限制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,13 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -1076,8 +1071,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/pages/scripts/activity/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
