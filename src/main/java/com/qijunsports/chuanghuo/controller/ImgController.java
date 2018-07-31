@@ -27,7 +27,7 @@ public class ImgController {
 
   @RequestMapping(value = "/upload", method = RequestMethod.POST)
   @ResponseBody
-  public Object UpLoadImg(@RequestParam(value = "myFileName") MultipartFile mf) {
+  public Object uploadImg(@RequestParam(value = "myFileName") MultipartFile mf) {
     // String realPath = request.getSession().getServletContext().getRealPath("upload");
     String realPath = System.getProperty("java.class.path");
     realPath = realPath.substring(0, realPath.lastIndexOf("jboss-modules.jar")) + "upload";

@@ -16,6 +16,21 @@
     <div class="form-body">
         <div class="row">
             <div class="col-md-12">
+                <label class="control-label col-md-3">
+                    缩略图：
+                </label>
+                <div class="col-md-9">
+                    <a href="javascript:void(0)" download="img.jpg">
+                        <img src="<%=request.getContextPath()%>/assets/pages/img/upload.png"
+                             width="128" height="128"></a>
+                    <input id="thumbnail" name="myFileName" class="img-input" type="file"
+                           accept="image/png,image/gif,image/jpeg,image/tiff"
+                           style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label class="control-label col-md-3">
                         活动标题：
@@ -117,6 +132,98 @@
                                 <input type="radio" name="isTop"
                                        value="0"> 否
                             </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="topPic" style="display: none">
+            <div class="col-md-12">
+                <label class="control-label col-md-3">
+                    轮播图：
+                </label>
+                <div class="col-md-9">
+                    <a href="javascript:void(0)" download="img.jpg">
+                        <img src="<%=request.getContextPath()%>/assets/pages/img/upload.png"
+                             width="128" height="128"></a>
+                    <input id="picTop" name="myFileName" class="img-input" type="file"
+                           accept="image/png,image/gif,image/jpeg,image/tiff"
+                           style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        门店名称：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="storeName">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        活动地址：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="address">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        经度纬度：
+                    </label>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="longitude" placeholder="经度">
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                        <input type="number" class="form-control" id="latitude" placeholder="纬度">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        固定电话：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="fixedTelephone" placeholder="多条用半角;分隔">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        移动电话：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="mobilePhone" placeholder="多条用半角;分隔">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label col-md-3">
+                        交通方式：
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" id="transportation">
                     </div>
                 </div>
             </div>
@@ -124,6 +231,8 @@
     </div>
 </form>
 <script src="<%=request.getContextPath()%>/assets/pages/scripts/activity/edit.js" type="text/javascript"></script>
+<script src="<%=request.getContextPath()%>/assets/global/plugins/ajaxfileupload.js"
+        type="text/javascript"></script>
 <script type="text/javascript">
     $(function () {
         activityEdit.setPath("<%=request.getContextPath() %>");
