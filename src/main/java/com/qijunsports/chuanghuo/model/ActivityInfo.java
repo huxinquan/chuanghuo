@@ -14,6 +14,17 @@ public class ActivityInfo {
   private String tag;
   private String describe;
   private String content;
+  private String content1;
+  private String content2;
+  private String content3;
+  private String content4;
+  private String content5;
+  private String content6;
+  private String video1;
+  private String video2;
+  private String video3;
+  private String video4;
+  private String video5;
   private String picTop;
   private Date beginDate;
   private Date endDate;
@@ -85,6 +96,94 @@ public class ActivityInfo {
 
   public void setContent(String content) {
     this.content = content;
+  }
+
+  public String getContent1() {
+    return content1;
+  }
+
+  public void setContent1(String content1) {
+    this.content1 = content1;
+  }
+
+  public String getContent2() {
+    return content2;
+  }
+
+  public void setContent2(String content2) {
+    this.content2 = content2;
+  }
+
+  public String getContent3() {
+    return content3;
+  }
+
+  public void setContent3(String content3) {
+    this.content3 = content3;
+  }
+
+  public String getContent4() {
+    return content4;
+  }
+
+  public void setContent4(String content4) {
+    this.content4 = content4;
+  }
+
+  public String getContent5() {
+    return content5;
+  }
+
+  public void setContent5(String content5) {
+    this.content5 = content5;
+  }
+
+  public String getContent6() {
+    return content6;
+  }
+
+  public void setContent6(String content6) {
+    this.content6 = content6;
+  }
+
+  public String getVideo1() {
+    return video1;
+  }
+
+  public void setVideo1(String video1) {
+    this.video1 = video1;
+  }
+
+  public String getVideo2() {
+    return video2;
+  }
+
+  public void setVideo2(String video2) {
+    this.video2 = video2;
+  }
+
+  public String getVideo3() {
+    return video3;
+  }
+
+  public void setVideo3(String video3) {
+    this.video3 = video3;
+  }
+
+  public String getVideo4() {
+    return video4;
+  }
+
+  public void setVideo4(String video4) {
+    this.video4 = video4;
+  }
+
+  public String getVideo5() {
+    return video5;
+  }
+
+  public void setVideo5(String video5) {
+    this.video5 = video5;
   }
 
   public String getPicTop() {

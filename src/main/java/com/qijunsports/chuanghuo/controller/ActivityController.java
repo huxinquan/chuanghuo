@@ -1,22 +1,15 @@
 package com.qijunsports.chuanghuo.controller;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.qijunsports.chuanghuo.model.ActivityInfo;
 import com.qijunsports.chuanghuo.service.ActivityService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
-import java.util.Map;
 import java.util.UUID;
 
 /**
@@ -29,6 +22,7 @@ import java.util.UUID;
 public class ActivityController {
   private Logger logger = Logger.getLogger(ActivityController.class);
 
+
   @Autowired
   private ActivityService activityService;
 
@@ -40,7 +34,13 @@ public class ActivityController {
   @RequestMapping(value = "/getAllActivity", method = RequestMethod.GET)
   @ResponseBody
   public List<ActivityInfo> getAllActivity() {
-    return activityService.getAllActivity();
+    List<ActivityInfo> resultList = new ArrayList<>();
+    List<ActivityInfo> activityInfoList = activityService.getAllActivity();
+    for (ActivityInfo activityInfo : activityInfoList) {
+      activityInfo = processGetActivity(activityInfo);
+      resultList.add(activityInfo);
+    }
+    return resultList;
   }
 
   /**
@@ -52,7 +52,9 @@ public class ActivityController {
   @RequestMapping(value = "/activity/{id}", method = RequestMethod.GET)
   @ResponseBody
   public ActivityInfo getActivity(@PathVariable("id") String id) {
-    return activityService.getActivityById(id);
+    ActivityInfo activityInfo = activityService.getActivityById(id);
+    activityInfo = processGetActivity(activityInfo);
+    return activityInfo;
   }
 
   /**
@@ -66,6 +68,7 @@ public class ActivityController {
   public Boolean addActivity(@RequestBody ActivityInfo activityInfo) {
     try {
       activityInfo.setId(UUID.randomUUID().toString());
+      activityInfo = processEditActivity(activityInfo);
       activityService.addActivity(activityInfo);
       return true;
     } catch (Exception e) {
@@ -78,7 +81,7 @@ public class ActivityController {
   /**
    * 改
    *
-   * @param id id
+   * @param id           id
    * @param activityInfo 活动对象
    * @return true || false
    */
@@ -87,6 +90,8 @@ public class ActivityController {
   public Boolean updateActivity(@PathVariable("id") String id,
                                 @RequestBody ActivityInfo activityInfo) {
     try {
+      activityInfo.setUpdateDate(new Date());
+      activityInfo = processEditActivity(activityInfo);
       activityService.updateActivity(id, activityInfo);
       return true;
     } catch (Exception e) {
@@ -108,6 +113,7 @@ public class ActivityController {
     try {
       ActivityInfo activityInfo = new ActivityInfo();
       activityInfo.setIsDelete(1);
+      activityInfo.setUpdateDate(new Date());
       activityService.updateActivity(id, activityInfo);
       return true;
     } catch (Exception e) {
@@ -126,5 +132,99 @@ public class ActivityController {
   @ResponseBody
   public int getIsTopCount() {
     return activityService.getIsTopCount();
+  }
+
+  /**
+   * 处理获取的活动
+   */
+  private ActivityInfo processGetActivity(ActivityInfo activityInfo) {
+    String content = "";
+    String spiltString = "#####";
+    if (activityInfo.getContent1() != null) {
+      content += activityInfo.getContent1();
+    }
+    if (activityInfo.getVideo1() != null) {
+      content += spiltString + activityInfo.getVideo1() + spiltString;
+    }
+    if (activityInfo.getContent2() != null) {
+      content += activityInfo.getContent2();
+    }
+    if (activityInfo.getVideo2() != null) {
+      content += spiltString + activityInfo.getVideo2() + spiltString;
+    }
+    if (activityInfo.getContent3() != null) {
+      content += activityInfo.getContent3();
+    }
+    if (activityInfo.getVideo3() != null) {
+      content += spiltString + activityInfo.getVideo3() + spiltString;
+    }
+    if (activityInfo.getContent4() != null) {
+      content += activityInfo.getContent4();
+    }
+    if (activityInfo.getVideo4() != null) {
+      content += spiltString + activityInfo.getVideo4() + spiltString;
+    }
+    if (activityInfo.getContent5() != null) {
+      content += activityInfo.getContent5();
+    }
+    if (activityInfo.getVideo5() != null) {
+      content += spiltString + activityInfo.getVideo5() + spiltString;
+    }
+    if (activityInfo.getContent6() != null) {
+      content += activityInfo.getContent6();
+    }
+    activityInfo.setContent(content);
+
+    return activityInfo;
+  }
+
+  /**
+   * 处理编辑的活动
+   */
+  private ActivityInfo processEditActivity(ActivityInfo activityInfo) {
+    if (activityInfo.getContent() != null) {
+      String[] spiltList = activityInfo.getContent().split("#####");
+      for (int i = 0; i < spiltList.length; i++) {
+        switch (i) {
+          case 0:
+            activityInfo.setContent1(spiltList[i]);
+            break;
+          case 1:
+            activityInfo.setVideo1(spiltList[i]);
+            break;
+          case 2:
+            activityInfo.setContent2(spiltList[i]);
+            break;
+          case 3:
+            activityInfo.setVideo2(spiltList[i]);
+            break;
+          case 4:
+            activityInfo.setContent3(spiltList[i]);
+            break;
+          case 5:
+            activityInfo.setVideo3(spiltList[i]);
+            break;
+          case 6:
+            activityInfo.setContent4(spiltList[i]);
+            break;
+          case 7:
+            activityInfo.setVideo4(spiltList[i]);
+            break;
+          case 8:
+            activityInfo.setContent5(spiltList[i]);
+            break;
+          case 9:
+            activityInfo.setVideo5(spiltList[i]);
+            break;
+          case 10:
+            activityInfo.setContent6(spiltList[i]);
+            break;
+          default:
+            break;
+        }
+      }
+    }
+
+    return activityInfo;
   }
 }

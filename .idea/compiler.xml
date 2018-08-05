@@ -9,8 +9,8 @@
         <module name="chuanghuo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="chuanghuo" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="chuanghuo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
