@@ -141,37 +141,63 @@ public class ActivityController {
     String content = "";
     String spiltString = "#####";
     if (activityInfo.getContent1() != null) {
-      content += activityInfo.getContent1();
+      String text = activityInfo.getContent1();
+      if (activityInfo.getContent2() != null) {
+        content += text.substring(0, text.length() - 4);
+      } else {
+        content += text;
+      }
     }
     if (activityInfo.getVideo1() != null) {
       content += spiltString + activityInfo.getVideo1() + spiltString;
     }
     if (activityInfo.getContent2() != null) {
-      content += activityInfo.getContent2();
+      String text = activityInfo.getContent2();
+      if (activityInfo.getContent3() != null) {
+        content += text.substring(3, text.length() - 4);
+      } else {
+        content += text.substring(3, text.length());
+      }
     }
     if (activityInfo.getVideo2() != null) {
       content += spiltString + activityInfo.getVideo2() + spiltString;
     }
     if (activityInfo.getContent3() != null) {
-      content += activityInfo.getContent3();
+      String text = activityInfo.getContent3();
+      if (activityInfo.getContent4() != null) {
+        content += text.substring(3, text.length() - 4);
+      } else {
+        content += text.substring(3, text.length());
+      }
     }
     if (activityInfo.getVideo3() != null) {
       content += spiltString + activityInfo.getVideo3() + spiltString;
     }
     if (activityInfo.getContent4() != null) {
-      content += activityInfo.getContent4();
+      String text = activityInfo.getContent4();
+      if (activityInfo.getContent5() != null) {
+        content += text.substring(3, text.length() - 4);
+      } else {
+        content += text.substring(3, text.length());
+      }
     }
     if (activityInfo.getVideo4() != null) {
       content += spiltString + activityInfo.getVideo4() + spiltString;
     }
     if (activityInfo.getContent5() != null) {
-      content += activityInfo.getContent5();
+      String text = activityInfo.getContent5();
+      if (activityInfo.getContent6() != null) {
+        content += text.substring(3, text.length() - 4);
+      } else {
+        content += text.substring(3, text.length());
+      }
     }
     if (activityInfo.getVideo5() != null) {
       content += spiltString + activityInfo.getVideo5() + spiltString;
     }
     if (activityInfo.getContent6() != null) {
-      content += activityInfo.getContent6();
+      String text = activityInfo.getContent6();
+      content += text.substring(3, text.length());
     }
     activityInfo.setContent(content);
 
@@ -184,40 +210,61 @@ public class ActivityController {
   private ActivityInfo processEditActivity(ActivityInfo activityInfo) {
     if (activityInfo.getContent() != null) {
       String[] spiltList = activityInfo.getContent().split("#####");
-      for (int i = 0; i < spiltList.length; i++) {
+      int length = spiltList.length;
+      for (int i = 0; i < length; i++) {
         switch (i) {
           case 0:
-            activityInfo.setContent1(spiltList[i]);
+            if (length > 1) {
+              activityInfo.setContent1(spiltList[i] + "</p>");
+            } else {
+              activityInfo.setContent1(spiltList[i]);
+            }
             break;
           case 1:
             activityInfo.setVideo1(spiltList[i]);
             break;
           case 2:
-            activityInfo.setContent2(spiltList[i]);
+            if (length > 3) {
+              activityInfo.setContent2("<p>" + spiltList[i] + "</p>");
+            } else {
+              activityInfo.setContent2("<p>" + spiltList[i]);
+            }
             break;
           case 3:
             activityInfo.setVideo2(spiltList[i]);
             break;
           case 4:
-            activityInfo.setContent3(spiltList[i]);
+            if (length > 5) {
+              activityInfo.setContent3("<p>" + spiltList[i] + "</p>");
+            } else {
+              activityInfo.setContent3("<p>" + spiltList[i]);
+            }
             break;
           case 5:
             activityInfo.setVideo3(spiltList[i]);
             break;
           case 6:
-            activityInfo.setContent4(spiltList[i]);
+            if (length > 7) {
+              activityInfo.setContent4("<p>" + spiltList[i] + "</p>");
+            } else {
+              activityInfo.setContent4("<p>" + spiltList[i]);
+            }
             break;
           case 7:
             activityInfo.setVideo4(spiltList[i]);
             break;
           case 8:
-            activityInfo.setContent5(spiltList[i]);
+            if (length > 9) {
+              activityInfo.setContent5("<p>" + spiltList[i] + "</p>");
+            } else {
+              activityInfo.setContent5("<p>" + spiltList[i]);
+            }
             break;
           case 9:
             activityInfo.setVideo5(spiltList[i]);
             break;
           case 10:
-            activityInfo.setContent6(spiltList[i]);
+            activityInfo.setContent6("<p>" + spiltList[i]);
             break;
           default:
             break;
