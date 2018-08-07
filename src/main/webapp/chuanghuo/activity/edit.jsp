@@ -196,15 +196,15 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label class="control-label col-md-3">
-                        固定电话：
+                        联系电话：
                     </label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" id="fixedTelephone" placeholder="多条用半角;分隔">
+                        <input type="text" class="form-control" id="fixedTelephone">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <%--<div class="row">
             <div class="col-md-12">
                 <div class="form-group">
                     <label class="control-label col-md-3">
@@ -215,7 +215,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
